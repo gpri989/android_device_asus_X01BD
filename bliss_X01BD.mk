@@ -25,12 +25,6 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-
-
-
-
-
-
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
 

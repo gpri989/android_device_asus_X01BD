@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_X01BD.mk
+    $(LOCAL_DIR)/neutron_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_X01BD-eng \
-    bliss_X01BD-user \
-    bliss_X01BD-userdebug
+    neutron_X01BD-eng \
+    neutron_X01BD-user \
+    neutron_X01BD-userdebug

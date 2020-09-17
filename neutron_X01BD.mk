@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common RR stuff
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/neutron/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -32,7 +32,7 @@ TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_X01BD
+PRODUCT_NAME := neutron_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA

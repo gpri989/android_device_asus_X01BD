@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/neutron_X01BD.mk
+    $(LOCAL_DIR)/zenx_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    neutron_X01BD-eng \
-    neutron_X01BD-user \
-    neutron_X01BD-userdebug
+    zenx_X01BD-eng \
+    zenx_X01BD-user \
+    zenx_X01BD-userdebug

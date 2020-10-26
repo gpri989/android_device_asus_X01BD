@@ -458,3 +458,15 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
+
+YOUR_HW_PLATFORM := msm8998
+# Hardware
+PRODUCT_BOARD_PLATFORM := $(YOUR_HW_PLATFORM) 
+PRODUCT_USES_QCOM_HARDWARE := true
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/audio 
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/display 
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/media
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \ $(LOCAL_PATH) \
+hardware/qcom-caf/$(YOUR_HW_PLATFORM)

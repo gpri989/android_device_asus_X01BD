@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X01BD.mk
+    $(LOCAL_DIR)/revengeos_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_X01BD-eng \
-    xtended_X01BD-user \
-    xtended_X01BD-userdebug
+    revengeos_X01BD-eng \
+    revengeos_X01BD-user \
+    revengeos_X01BD-userdebug

@@ -355,7 +355,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     init.spectrum.rc \
-    init.zenparts.rc
+    init.zenparts.rc \
+    init.safailnet.rc
 
 # Recovery
 PRODUCT_PACKAGES += \

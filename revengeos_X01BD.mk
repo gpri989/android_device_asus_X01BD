@@ -19,14 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Xtended stuff
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common RevengeOS stuff
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official MSM-Xtended
-XTENDED_BUILD_TYPE := OFFICIAL
 
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
@@ -35,7 +32,7 @@ TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_X01BD
+PRODUCT_NAME := revengeos_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
@@ -53,5 +50,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Build fingerprint
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 
-# Maintainer
-XTENDED_MAINTAINER := 🔥SonalSingh18🔥

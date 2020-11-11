@@ -15,7 +15,7 @@ allow init adsprpcd_file:file mounton;
 
 allow vendor_init unlabeled:{ dir file } { getattr relabelfrom };
 
-# Allow vendor_init to set persist_camera_prop
-set_prop(vendor_init, persist_camera_prop)
+# Allow vendor_init to set vendor_persist_camera_prop
+set_prop(vendor_init, vendor_persist_camera_prop)
 
 allow vendor_init dirac_prop:property_service set;

@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
-    audio_amplifier.sdm660 \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -171,7 +170,8 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    AsusDoze
+    AsusDoze \
+    CustomDoze
 
 # FM
 PRODUCT_PACKAGES += \

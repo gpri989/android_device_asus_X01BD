@@ -6,11 +6,5 @@
   {
     "repository":  "vendor_asus_X01BD",
     "target_path": "vendor/asus/X01BD"
-  },
-  {
-    "remote": "github",
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-12.0.0", 
-    "branch": "master"
   }
 ]

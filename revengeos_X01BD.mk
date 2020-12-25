@@ -45,8 +45,8 @@ TARGET_VENDOR := asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X01BD_1 \
     PRODUCT_NAME=WW_X01BD \
-    PRIVATE_BUILD_DESC="coral-user 11 RP1A.201105.002 6869500 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 11 RQ1A.201205.008 6943376 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RQ1A.201205.008/6943376:user/release-keys"
 
